@@ -1,0 +1,25 @@
+﻿<Window x:Class="CoursWorkBd.MainRoot" WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoursWorkBd"
+        mc:Ignorable="d"
+        Title="MainRoot" Height="153" Width="800">
+    <Grid>
+      
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+
+            <RowDefinition Height="50"></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <Button Click="Button_Click_4" Margin="336,0,366,0">Выход</Button>
+        <Button Grid.Row="1" Click="Button_Click" Margin="54,0,604,0">Фильмы</Button>
+        <Button Grid.Row="1" Margin="224,0,446,0" Click="Button_Click_1">Сеансы</Button>
+        <Button Grid.Row="1" Margin="416,0,242,0" Click="Button_Click_2">Режисеры</Button>
+        <Button Grid.Row="1" Margin="616,0,42,0" Click="Button_Click_3">Проверка посещения</Button>
+    </Grid>
+</Window>

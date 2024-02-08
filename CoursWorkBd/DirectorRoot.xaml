@@ -1,0 +1,102 @@
+﻿<Window x:Class="CoursWorkBd.DirectorRoot"  WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoursWorkBd"
+        mc:Ignorable="d"
+        Title="DirectorRoot" Height="450" Width="800">
+    <Grid>
+     
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Click="Button_Click" Margin="54,10,210,10">Назад</Button>
+            <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Content="Добавление Режиссёра"></Label>
+            <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Content="Название фильма:" Margin="11,0,0,0"></Label>
+            <TextBox Grid.Row="3" FontSize="17"  x:Name="film_name" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Width="209" Height="29" Margin="139,0,0,0" />
+            <Label Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" Content="Имя режиссера:" Margin="11,0,0,0"></Label>
+            <TextBox Grid.Row="5" FontSize="17"  x:Name="derector" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Width="209" Height="30" Margin="139,0,0,0" />
+        <Label Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Content="Описание о нём:" Margin="11,0,0,0"></Label>
+        <TextBox Grid.Row="7" Grid.RowSpan="4" FontSize="17" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto"  x:Name="opis_film" BorderBrush="Black" TextWrapping="Wrap" BorderThickness="2" HorizontalAlignment="Left" Width="251" Margin="139,3,0,0" />
+        <TextBox Grid.Row="11" IsReadOnly="True" Cursor="Arrow" x:Name="Message" BorderBrush="White" Foreground="Red"  TextAlignment="Center" Width="207" >
+            <TextBox.Style>
+                <Style BasedOn="{StaticResource {x:Type TextBox}}" TargetType="{x:Type TextBox}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TextBox}">
+                                <Border x:Name="Bd" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        Background="{TemplateBinding Background}" 
+                                        SnapsToDevicePixels="true">
+                                    <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Button HorizontalAlignment="Center" Click="Button_Click_1" Grid.Row="13" Width="87">Добавить</Button>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Content="Удаление Режиссёра"></Label>
+        <Label Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Content="Имя Режиссёра:" Margin="11,0,0,0"></Label>
+        <TextBox Grid.Row="3"  Grid.Column="1" FontSize="17"  x:Name="director_name1" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Width="209" Height="29" Margin="139,0,0,0" />
+        <TextBox Grid.Row="5" Grid.Column="1" IsReadOnly="True" Cursor="Arrow" x:Name="Message1" BorderBrush="White" Foreground="Red"  TextAlignment="Center" Width="207" >
+            <TextBox.Style>
+                <Style BasedOn="{StaticResource {x:Type TextBox}}" TargetType="{x:Type TextBox}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TextBox}">
+                                <Border x:Name="Bd" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        Background="{TemplateBinding Background}" 
+                                        SnapsToDevicePixels="true">
+                                    <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Button HorizontalAlignment="Center" Grid.Column="1" Click="Button_Click_2"  Grid.Row="7" Width="87">Удалить</Button>
+    </Grid>
+</Window>

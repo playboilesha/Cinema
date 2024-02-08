@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <FILM_NAME>The Blind Side</FILM_NAME>
+  <DIRECTOR>John Lee Hancock</DIRECTOR>
+  <GENRE_NAME>drama</GENRE_NAME>
+  <DURATION_FILM>129</DURATION_FILM>
+  <YEAR_FILM>2009-02-23</YEAR_FILM>
+  <FILM_OPIS>The story of Michael Oher, a homeless and traumatized boy who became an All-American football player and first-round NFL draft pick with the help of a caring woman and her family.</FILM_OPIS>
+ </ROW>
+ </ROWSET>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Booking.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CheckUserRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Director.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DirectorRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FilmRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Films.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Genre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Seanse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SeanseRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SeanseUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Seanse_number.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchFilm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Booking.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CheckUserRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Director.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DirectorRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FilmRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Films.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Genre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Seanse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SeanseRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SeanseUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Seanse_number.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchFilm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

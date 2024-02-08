@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <FILM_NAME>Deadpool</FILM_NAME>
+  <DIRECTOR>Tim Miller</DIRECTOR>
+  <GENRE_NAME>action</GENRE_NAME>
+  <DURATION_FILM>108</DURATION_FILM>
+  <YEAR_FILM>01.12.16</YEAR_FILM>
+  <FILM_OPIS>A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>Avatar</FILM_NAME>
+  <DIRECTOR>James Cameron</DIRECTOR>
+  <GENRE_NAME>fantasy</GENRE_NAME>
+  <DURATION_FILM>162</DURATION_FILM>
+  <YEAR_FILM>01.04.09</YEAR_FILM>
+  <FILM_OPIS>A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>The Tree of Life</FILM_NAME>
+  <DIRECTOR>Terrence Malick</DIRECTOR>
+  <GENRE_NAME>drama</GENRE_NAME>
+  <DURATION_FILM>139</DURATION_FILM>
+  <YEAR_FILM>01.04.11</YEAR_FILM>
+  <FILM_OPIS>The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents conflicting teachings.</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>Venom</FILM_NAME>
+  <DIRECTOR>Ruben Fleischer</DIRECTOR>
+  <GENRE_NAME>action</GENRE_NAME>
+  <DURATION_FILM>112</DURATION_FILM>
+  <YEAR_FILM>01.11.18</YEAR_FILM>
+  <FILM_OPIS>A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>Titanic</FILM_NAME>
+  <DIRECTOR>James Cameron</DIRECTOR>
+  <GENRE_NAME>melodrama</GENRE_NAME>
+  <DURATION_FILM>194</DURATION_FILM>
+  <YEAR_FILM>01.04.97</YEAR_FILM>
+  <FILM_OPIS>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>The Avengers</FILM_NAME>
+  <DIRECTOR>Joss Whedon</DIRECTOR>
+  <GENRE_NAME>action</GENRE_NAME>
+  <DURATION_FILM>143</DURATION_FILM>
+  <YEAR_FILM>01.04.14</YEAR_FILM>
+  <FILM_OPIS>Earth&apos;s mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</FILM_OPIS>
+ </ROW>
+ <ROW>
+  <FILM_NAME>Hulk</FILM_NAME>
+  <DIRECTOR>Ang Lee</DIRECTOR>
+  <GENRE_NAME>action</GENRE_NAME>
+  <DURATION_FILM>138</DURATION_FILM>
+  <YEAR_FILM>22.01.03</YEAR_FILM>
+  <FILM_OPIS>Bruce Banner, a genetics researcher with a tragic past, suffers an accident that causes him to transform into a raging green monster when he gets angry</FILM_OPIS>
+ </ROW>
+</ROWSET>

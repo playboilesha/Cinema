@@ -1,0 +1,3 @@
+Avatar,James Cameron,fantasy,162,2009,A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.
+Titanic,James Cameron,melodrama,194,1997,A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+The Avengers,Joss Whedon,action,143,2014,Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
